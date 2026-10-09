@@ -71,9 +71,8 @@ Each follow button in `"links"` has an `"active"` flag.
 ## Add your photo
 
 1. Get a square photo (at least 400×400 pixels). Crop it so your face is in the centre; it's shown as a circle.
-2. Rename it to exactly **`photo.jpg`** (lowercase).
-3. Rename the file on your computer **before** uploading, so the uploaded file is already called `photo.jpg`.
-4. On GitHub: **Add file → Upload files**, drag `photo.jpg` in, then **Commit changes**. It replaces the placeholder.
+2. On your computer, rename it to exactly **`photo.jpg`** (lowercase) before uploading.
+3. On GitHub: **Add file → Upload files**, drag `photo.jpg` in, then **Commit changes**. It replaces the placeholder.
 
 Tip: keep it under about 200 KB so the page stays fast. https://squoosh.app is a free tool that does this in the browser.
 
@@ -81,7 +80,7 @@ Tip: keep it under about 200 KB so the page stays fast. https://squoosh.app is a
 
 ## Add, edit or remove a project
 
-Projects live in `"projects"`. To add one, copy a block, paste it after the last one, and **add a comma between the blocks**:
+Projects live in `"projects"`. (The GitHub link below is only an example.) To add one, copy a block, paste it after the last one, and **add a comma between the blocks**:
 
 ```json
 "projects": [
