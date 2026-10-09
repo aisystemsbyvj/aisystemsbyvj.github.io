@@ -1,8 +1,21 @@
-/* Builds the page from content.js. You shouldn't need to edit this file. */
+/* Builds the page from the editable block at the top of index.html.
+   You shouldn't need to edit this file. */
 (function () {
   "use strict";
 
-  var SITE = window.SITE || {};
+  var SITE = {};
+  try {
+    SITE = JSON.parse(document.getElementById("site-content").textContent);
+  } catch (err) {
+    // Show a friendly message instead of a blank page if the block has a typo.
+    var warn = document.createElement("p");
+    warn.className = "content-error";
+    warn.setAttribute("role", "alert");
+    warn.textContent = "There's a mistake in the content block at the top of index.html " +
+      "(usually a missing or extra comma or quote). Details: " + err.message;
+    document.getElementById("main").prepend(warn);
+    console.error("Content block error:", err);
+  }
 
   // Simple line icons (24x24). Brand marks are simplified, single-colour shapes.
   var ICONS = {

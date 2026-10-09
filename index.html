@@ -3,11 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- =======================================================================
+       ✏️  EDIT YOUR SITE HERE — all words and links on the page live in this block.
+       -----------------------------------------------------------------------
+       Rules (this block is JSON, which is strict):
+       • Text goes inside "double quotes". Need a quote inside text? Use ' instead.
+       • Items are separated by commas — but NO comma after the last item in a list.
+       • Leave a link empty ("") to show it as "Coming soon" (not clickable).
+       • Links must start with https://
+       • Photo: add photo.jpg to the repo, then change "photo-placeholder.svg" to "photo.jpg".
+       • Icons for "links": linkedin, youtube, instagram, github
+         Icons for "topics": ai, analytics, money, life
+       If the page shows a red "content block" error after editing, a comma or
+       quote is missing or extra. See README.md for examples.
+       ======================================================================= -->
+  <script type="application/json" id="site-content">
+{
+  "name": "Vijay Anand (VJ)",
+  "photo": "photo-placeholder.svg",
+  "photoAlt": "Photo of Vijay Anand",
+  "tagline": "Learning AI alongside a full-time job — sharing what works in AI, analytics, money and life.",
+
+  "bio": [
+    "7+ years in supply chain and revenue analytics.",
+    "Now learning to build AI agents and sharing the lessons in public.",
+    "Based in Chennai, India."
+  ],
+
+  "links": [
+    { "label": "LinkedIn",  "icon": "linkedin",  "url": "https://www.linkedin.com/in/vijay-anand-5a78ba138" },
+    { "label": "YouTube",   "icon": "youtube",   "url": "" },
+    { "label": "Instagram", "icon": "instagram", "url": "" },
+    { "label": "GitHub",    "icon": "github",    "url": "https://github.com/aisystemsbyvj" }
+  ],
+
+  "topics": [
+    { "icon": "ai",        "title": "AI",           "text": "Tools and agents explained simply." },
+    { "icon": "analytics", "title": "Analytics",    "text": "Data skills that matter at work." },
+    { "icon": "money",     "title": "Money",        "text": "Personal finance lessons." },
+    { "icon": "life",      "title": "Life lessons", "text": "Career and habits." }
+  ],
+
+  "projects": [
+    { "title": "Project 1", "text": "Details coming soon.", "status": "Coming soon", "url": "" },
+    { "title": "Project 2", "text": "Details coming soon.", "status": "Coming soon", "url": "" },
+    { "title": "Project 3", "text": "Details coming soon.", "status": "Coming soon", "url": "" }
+  ],
+
+  "work": {
+    "text": "Open to freelance work in data analytics and AI automation.",
+    "email": "",
+    "emailSubject": "Collaboration enquiry",
+    "buttonLabel": "Email me"
+  },
+
+  "footerNote": "Built with Claude Code"
+}
+  </script>
+  <!-- ======================= END OF EDITABLE BLOCK ======================== -->
+
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Link previews (LinkedIn, WhatsApp, X). These must stay in this file:
-       preview bots don't run JavaScript, so content.js can't change them. -->
+       preview bots don't run JavaScript, so the editable block above can't change them. -->
   <title>Vijay Anand (VJ) — AI, analytics, money and life</title>
   <meta name="description" content="Learning AI alongside a full-time job — sharing what works in AI, analytics, money and life.">
   <meta name="theme-color" content="#0F1B2D">
@@ -31,7 +91,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 
-  <script src="content.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>

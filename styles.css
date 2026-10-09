@@ -226,3 +226,12 @@ a.btn-primary:hover { filter: brightness(1.08); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+.content-error {
+  margin-top: 24px;
+  padding: 14px 16px;
+  border: 2px solid #FF8A80;
+  border-radius: var(--radius);
+  color: #FFD6D2;
+  background: #3A1D24;
+}
