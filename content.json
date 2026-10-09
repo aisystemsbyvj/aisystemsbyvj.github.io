@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "photo": "photo.jpg",
+    "photoAlt": "Photo of Vijay Anand (VJ)",
+    "brand": "AI Systems by VJ",
+    "byline": "by Vijay Anand (VJ)",
+    "tagline": "AI explained simply, and built into systems for work, money and life.",
+    "bio": "7+ years in data and analytics. Now learning and building AI systems — RAG, LLMs, agents — and sharing what works, in public, alongside a full-time job. Based in Chennai, India."
+  },
+
+  "followTitle": "Follow along",
+  "links": [
+    {
+      "platform": "youtube",
+      "label": "YouTube",
+      "handle": "@aisystemsbyvj",
+      "url": "https://www.youtube.com/@aisystemsbyvj",
+      "active": true
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "handle": "Vijay Anand",
+      "url": "https://www.linkedin.com/in/vijay-anand-5a78ba138",
+      "active": true
+    },
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "handle": "@aisystemsbyvj",
+      "url": "https://www.instagram.com/aisystemsbyvj",
+      "active": true
+    },
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "handle": "aisystemsbyvj",
+      "url": "https://github.com/aisystemsbyvj",
+      "active": true
+    }
+  ],
+
+  "topicsTitle": "What I share",
+  "topics": [
+    {
+      "title": "AI explained",
+      "text": "RAG, LLMs and agents in plain words."
+    },
+    {
+      "title": "AI × Data",
+      "text": "Using AI for analytics and everyday data work."
+    },
+    {
+      "title": "AI × Money",
+      "text": "AI tools to understand and track money. No investment advice."
+    },
+    {
+      "title": "AI × Life",
+      "text": "AI systems for goals, habits and time."
+    }
+  ],
+
+  "projectsTitle": "What I'm building",
+  "projects": [
+    {
+      "name": "Time-tracker bot",
+      "description": "Voice notes → AI → automatic time log.",
+      "status": "In progress",
+      "link": "",
+      "linkLabel": "View project"
+    },
+    {
+      "name": "AI content system",
+      "description": "Turns my notes into post and video drafts.",
+      "status": "Coming soon",
+      "link": "",
+      "linkLabel": "View project"
+    },
+    {
+      "name": "Supply-chain RAG assistant",
+      "description": "Ask questions over logistics documents.",
+      "status": "Coming soon",
+      "link": "",
+      "linkLabel": "View project"
+    }
+  ],
+
+  "work": {
+    "title": "Work with me",
+    "text": "Open to freelance projects in AI automation and data analytics.",
+    "email": "aisystemsbyvj@gmail.com",
+    "buttonLabel": "Email me"
+  },
+
+  "footer": "AI Systems by VJ"
+}
