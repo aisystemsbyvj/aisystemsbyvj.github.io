@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Link previews (LinkedIn, WhatsApp, X). These must stay in this file:
+       preview bots don't run JavaScript, so content.js can't change them. -->
+  <title>Vijay Anand (VJ) — AI, analytics, money and life</title>
+  <meta name="description" content="Learning AI alongside a full-time job — sharing what works in AI, analytics, money and life.">
+  <meta name="theme-color" content="#0F1B2D">
+  <link rel="canonical" href="https://aisystemsbyvj.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aisystemsbyvj.github.io/">
+  <meta property="og:title" content="Vijay Anand (VJ) — AI, analytics, money and life">
+  <meta property="og:description" content="Learning AI alongside a full-time job — sharing what works in AI, analytics, money and life.">
+  <meta property="og:image" content="https://aisystemsbyvj.github.io/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vijay Anand (VJ) — AI, analytics, money and life">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page">
+    <header class="hero">
+      <img id="photo" class="avatar" src="photo-placeholder.svg" alt="Photo of Vijay Anand" width="128" height="128">
+      <h1 id="name">Vijay Anand (VJ)</h1>
+      <p id="tagline" class="tagline">Learning AI alongside a full-time job — sharing what works in AI, analytics, money and life.</p>
+    </header>
+
+    <main id="main">
+      <section aria-labelledby="about-heading" class="section">
+        <h2 id="about-heading" class="visually-hidden">About</h2>
+        <div id="bio" class="bio"></div>
+      </section>
+
+      <section aria-labelledby="follow-heading" class="section">
+        <h2 id="follow-heading" class="section-title">Follow along</h2>
+        <ul id="links" class="links" role="list"></ul>
+      </section>
+
+      <section aria-labelledby="topics-heading" class="section">
+        <h2 id="topics-heading" class="section-title">What I share</h2>
+        <ul id="topics" class="topics" role="list"></ul>
+      </section>
+
+      <section aria-labelledby="projects-heading" class="section">
+        <h2 id="projects-heading" class="section-title">What I'm building</h2>
+        <ul id="projects" class="projects" role="list"></ul>
+      </section>
+
+      <section aria-labelledby="work-heading" class="section work">
+        <h2 id="work-heading" class="section-title">Work with me</h2>
+        <p id="work-text"></p>
+        <div id="work-action"></div>
+      </section>
+
+      <noscript>
+        <p class="noscript">This page needs JavaScript to show its links. You can still find me on
+          <a href="https://www.linkedin.com/in/vijay-anand-5a78ba138">LinkedIn</a>.</p>
+      </noscript>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year">2026</span> Vijay Anand · <span id="footer-note">Built with Claude Code</span></p>
+    </footer>
+  </div>
+</body>
+</html>
